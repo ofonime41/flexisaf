@@ -7,7 +7,7 @@
                     <div class="flex text-lg text-bold">
 
                         <span> <img class="w-7" src="@/assets/images/logo.png" alt="logo"> </span>
-                        <span class="px-2 text-lg font-bold text-white">
+                        <span class="px-2 text-2xl font-bold text-white">
                             flexisaf
                         </span>
                     </div>

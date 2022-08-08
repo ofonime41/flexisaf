@@ -1,4 +1,4 @@
-<template >
+<template  >
   <NavBar />
 
   <!-- SHOWCASE SECTION -->
@@ -15,7 +15,7 @@
     <div class="container mx-auto px-10 md:px-20 py:10 md:py-14">
       <div class="showcase md:grid md:grid-cols-2 grid-row gap-10">
         <div class="text-white">
-          <h1 class="pt-10 md:pt-5 mb-10 text-center md:text-left text-2xl  md:text-4xl font-bold tracking-wide"> Improving Education
+          <h1 class="pt-10 md:pt-5 mb-10 text-center md:text-left text-2xl  md:text-5xl font-bold tracking-wide"> Improving Education
             through Technology Solutions</h1>
 
           <p class="mb-10 text-center md:text-left md:text-lg md:pr-5">Providing the best school administration, teaching
@@ -201,8 +201,8 @@
             </div>
 
             <div class="solution2 rounded py-5 px-7 shadow-2xl hover:shadow-md shadow-slate-900 text-white">
-              <img class=" mx-auto w-14" src="@/assets/images/bulb.svg" alt="">
-              <h3 class="text-2xl font-medium my-3 text-left">A Wealth of experience</h3>
+              <img class=" mx-auto w-14" src="@/assets/images/responsible.svg" alt="">
+              <h3 class="text-2xl font-medium my-3">Wealth of experience</h3>
               <p class="text-justify mb-5 after:text-md">
                 With 10+ years of experience, our technical expertise has been emboldened by our resolve to help you
                 conquer barriers.
@@ -210,7 +210,7 @@
             </div>
 
             <div class="solution2 rounded py-5 px-7 shadow-2xl hover:shadow-md shadow-slate-900 text-white">
-              <img class=" mx-auto w-14" src="@/assets/images/person.svg" alt="">
+              <img class=" mx-auto w-14" src="@/assets/images/support.svg" alt="">
               <h3 class="text-2xl font-medium my-3 ">Dedicated support</h3>
               <p class="text-justify mb-5 after:text-md">
                 We provide a wide range of support for all our customers using all our solutions to ensure that you can
@@ -377,10 +377,10 @@
   </section>
 
  <!-- CONTACT -->
-  <section class="container mx-auto">
+  <section class="container mx-auto md:my-40">
     <div class="my-10 md:mx-60 mx-5">
-      <div class="bg-contact py-14 text-center rounded-xl">
-        <h1 class="text-3xl font-bold text-white mb-5 underline">Gt in touch with us</h1>
+      <div class="bg-contact py-14 px-5 text-center rounded-xl">
+        <h1 class="text-3xl font-bold text-white mb-5 underline">Get in touch with us</h1>
         <p class="text-white mb-5">Have questions, or want to talk about working with us?</p>
         <button
               class="bg-cyan-600 text-white text-md spec-btn  px-5 py-2  font-bold  duration-500  hover:bg-[#10116B]">
@@ -395,7 +395,7 @@
   <!-- FOOTER -->
 
   <footer class="bg-[#05224B] py-10 overflow-hidden">
-    <div class="container mx-auto px-10 md:px-0 ">
+    <div class="container mx-auto px-10 md:px-20 ">
       <div class="md:grid md:grid-cols-12  gap-10">
         <div class="col-span-4 text-white mb-10">
           <img class="w-32 mb-5" src="@/assets/images/green-horizontal.svg" alt="">
@@ -445,11 +445,17 @@
 
       <div class="mt-10 opacity-60">
         <hr>
-        <div class="flex text-white my-5">
-          <p>© 2022 Flexisaf. All rights reserved | Sitemap</p>
+        <div class="md:flex justify-between text-white my-5">
+          <p class="mb-5">© 2022 Flexisaf. All rights reserved | Sitemap</p>
 
-          <ul class="flex ">
-            <li></li>
+          <ul class="flex space-x-5">
+           <a href=""> <img src="@/assets/images/facebook.svg" alt=""></a>
+        
+           <a href=""><img src="@/assets/images/twitter.svg" alt=""></a>
+            <a href=""><img src="@/assets/images/linkedin.svg" alt=""></a>
+             <a href=""><img src="@/assets/images/instagram.svg" alt=""> </a>
+            
+             
           </ul>
 
         </div>
