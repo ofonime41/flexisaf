@@ -12,10 +12,10 @@
       </svg>
     </div>
     <!-- section content -->
-    <div class="container mx-auto px-10 md:px-20 md:py-14">
+    <div class="container mx-auto px-10 md:px-20 py:10 md:py-14">
       <div class="showcase md:grid md:grid-cols-2 grid-row gap-10">
         <div class="text-white">
-          <h1 class="pt-5 mb-10 text-center md:text-left text-2xl  md:text-4xl font-bold tracking-wide"> Improving Education
+          <h1 class="pt-10 md:pt-5 mb-10 text-center md:text-left text-2xl  md:text-4xl font-bold tracking-wide"> Improving Education
             through Technology Solutions</h1>
 
           <p class="mb-10 text-center md:text-left md:text-lg md:pr-5">Providing the best school administration, teaching
@@ -165,13 +165,13 @@
 
 
           </div>
-          <div class="flex space-x-10 my-10">
+          <div class="flex md:space-x-10 space-x-5 my-10">
             <p class="text-center font-bold text-[#070852] "><span
-                class="text-2xl">5+</span><br>Countries</p>
-            <p class="text-center font-bold text-[#E03168] "><span class="font-bold text-2xl">500+
+                class="md:text-2xl">5+</span><br>Countries</p>
+            <p class="text-center font-bold text-[#E03168] "><span class="font-bold md:text-2xl">500+
               </span><br>Schools</p>
             <p class="text-center font-bold text-green-900 "><span
-                class=" text-2xl">50+ </span><br>Organisation</p>
+                class=" md:text-2xl">50+ </span><br>Organisation</p>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@
                 </button>
 
                  <ul id="menu"
-                class="md:bg-none bg-gradient-to-r from-[#05224B] to-[#070852] hidden  min-h-full md:flex md:items-center space-x-4 space-y-4 md:space-y-0 md:z-auto z-[1] md:static absolute text-white text-center w-full left-0 md:w-auto py-4 md:py-0 pl-7 md:pl-0 md:opacity-100  top-[70px] transition-all ease-in duration-500">
+                class="md:bg-none bg-gradient-to-r from-[#05224B] to-[#070852] hidden  min-h-full md:flex md:items-center space-x-4 space-y-4 md:space-y-0 md:z-auto z-[1] md:static absolute text-white  w-full left-0 md:w-auto py-4 md:py-0 pl-7 md:pl-0 md:opacity-100  top-[70px] transition-all ease-in duration-500">
                 <li class="mx-4 my-4"><a href="" class="text-lg hover:text-cyan-500 duration-500 ">Company</a></li>
                 <li><a href="" class="text-lg hover:text-cyan-500 duration-500">Product</a></li>
                 <li><a href="" class="text-lg hover:text-cyan-500 duration-500">Careers</a></li>
