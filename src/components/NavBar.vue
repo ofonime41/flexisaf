@@ -1,8 +1,8 @@
 <template>
 
     <nav class="bg-gradient-to-r from-[#05224B] to-[#070852] shadow md:flex md:center md:justify-between">
-        <div class="container mx-auto py-5 px-10 md:px-0">
-            <div class="flex justify-between items-center ">
+        <div class="container mx-auto py-5">
+            <div class="flex justify-between items-center px-10 md:px-20">
                 <a href="#">
                     <div class="flex text-lg text-bold">
 
@@ -14,14 +14,14 @@
                 </a>
 
                 <!-- Hamburger Icon -->
-                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none  ">
-                    <span class="hamburger-top"></span>
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top text-white"></span>
                     <span class="hamburger-middle"></span>
                     <span class="hamburger-bottom"></span>
                 </button>
 
                  <ul id="menu"
-                class="md:bg-none bg-gradient-to-r from-[#070852] to-[#1648A3] hidden  min-h-full md:flex md:items-center space-x-4 space-y-4 md:space-y-0 md:z-auto z-[1] md:static absolute text-white text-center w-full left-0 md:w-auto py-4 md:py-0 pl-7 md:pl-0 md:opacity-100  top-[70px] transition-all ease-in duration-500">
+                class="md:bg-none bg-gradient-to-r from-[#05224B] to-[#070852] hidden  min-h-full md:flex md:items-center space-x-4 space-y-4 md:space-y-0 md:z-auto z-[1] md:static absolute text-white text-center w-full left-0 md:w-auto py-4 md:py-0 pl-7 md:pl-0 md:opacity-100  top-[70px] transition-all ease-in duration-500">
                 <li class="mx-4 my-4"><a href="" class="text-lg hover:text-cyan-500 duration-500 ">Company</a></li>
                 <li><a href="" class="text-lg hover:text-cyan-500 duration-500">Product</a></li>
                 <li><a href="" class="text-lg hover:text-cyan-500 duration-500">Careers</a></li>
@@ -88,7 +88,7 @@ nav{
     left: 0;
     width: 24px;
     height: 2px;
-    background: #000;
+    background: #fff;
     transform: rotate(0);
     transition: all 0.5s;
 }
