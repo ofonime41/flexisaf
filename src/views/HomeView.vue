@@ -89,7 +89,7 @@
 
 
 
-        <div class="grid grid-row lg:grid-cols-3 gap-10 text-center">
+        <div class="grid grid-row lg:grid-cols-3 gap-10 text-center mb-10">
 
           <div class="solution1 rounded bg-white py-5 px-5 shadow-2xl shadow-gray-500 hover:shadow-md  text-[#05224b]">
             <img class=" mx-auto w-10" src="@/assets/images/person.svg" alt="">
@@ -489,7 +489,7 @@ export default {
     scrollAnimation() {
 
       gsap.from('.showcase', {
-        opacity:0,
+
         y: 200,
       })
       gsap.to('.showcase', {
