@@ -137,7 +137,7 @@
         </div>
 
         <div>
-          <h2 class="text-3xl md:text-4xl text-center md:text-start font-semibold  text-[#05224b] leading-snug mb-5">
+          <h2 class="text-2xl md:text-4xl text-center md:text-start font-semibold  text-[#05224b] leading-snug mb-5">
             Problems We Are Solving</h2>
 
           <p class="mb-10 text-justify  text-[#05224b]">Educational institutions are faced with numerous challenges like lengthy manual
@@ -193,7 +193,7 @@
           <div class="grid grid-row lg:grid-cols-3 gap-10 text-center ">
             <div class="solution2 rounded py-5 px-7 shadow-2xl hover:shadow-md shadow-slate-900 text-white">
               <img class=" mx-auto w-14" src="@/assets/images/person.svg" alt="">
-              <h3 class="text-2xl font-medium my-3"> A Personal Journey</h3>
+              <h3 class="text-xl md:text-2xl font-medium my-3"> A Personal Journey</h3>
               <p class="text-justify mb-5 after:text-md">
 
                 Our clients are part of the FlexiSAF family. We stick with you and evolve together,
@@ -202,7 +202,7 @@
 
             <div class="solution2 rounded py-5 px-7 shadow-2xl hover:shadow-md shadow-slate-900 text-white">
               <img class=" mx-auto w-14" src="@/assets/images/responsible.svg" alt="">
-              <h3 class="text-2xl font-medium my-3">Wealth of experience</h3>
+              <h3 class="text-xl md:text-2xl font-medium my-3">Wealth of experience</h3>
               <p class="text-justify mb-5 after:text-md">
                 With 10+ years of experience, our technical expertise has been emboldened by our resolve to help you
                 conquer barriers.
@@ -211,7 +211,7 @@
 
             <div class="solution2 rounded py-5 px-7 shadow-2xl hover:shadow-md shadow-slate-900 text-white">
               <img class=" mx-auto w-14" src="@/assets/images/support.svg" alt="">
-              <h3 class="text-2xl font-medium my-3 ">Dedicated support</h3>
+              <h3 class="text-xl md:text-2xl font-medium my-3 ">Dedicated support</h3>
               <p class="text-justify mb-5 after:text-md">
                 We provide a wide range of support for all our customers using all our solutions to ensure that you can
                 get the best experience
@@ -543,7 +543,7 @@ export default {
         y: 'random(100,300)',
         duration: 1.5,
         stagger: 0.25,
-        delay: 1,
+        delay: 0.5,
         scrollTrigger: {
           trigger: ".solution1",
           toggleActions: 'restart none play none',
@@ -556,7 +556,7 @@ export default {
          x: 'random(100,300)',
         duration: 1.5,
         stagger: 0.25,
-         delay: 1,
+         delay: 0.5,
         scrollTrigger: {
           trigger: ".solution2",
           toggleActions: 'restart none play none',
@@ -569,7 +569,7 @@ export default {
          y: 'random(100,300)',
         duration: 1.5,
         stagger: 0.25,
-         delay: 1,
+         delay: 0.5,
         scrollTrigger: {
           trigger: ".testimony",
           toggleActions: 'restart none play none',
@@ -584,7 +584,7 @@ export default {
            x: 'random(100,200)',
         duration: 1.5,
         stagger: 0.8,
-        delay: 1,
+        delay: 0.5,
         scrollTrigger: {
           trigger: ".giving",
           toggleActions: 'restart none none none',
