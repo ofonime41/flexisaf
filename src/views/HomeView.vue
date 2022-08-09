@@ -493,21 +493,20 @@ export default {
         y: 200,
       })
       gsap.to('.showcase', {
-        opacity:0,
         y: 0,
-        duration: 2,
+        duration: 3,
       });
 
 
       gsap.from('.slidimg', {
-        opacity:0,
         x: -300,
+        opacity:0
 
 
       })
       gsap.to('.slidimg', {
         x: 0,
-        duration: 2,
+        duration: 3,
         scrollTrigger: {
           trigger: ".slidimg",
           toggleActions: 'restart none restart none',
