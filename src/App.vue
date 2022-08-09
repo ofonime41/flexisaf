@@ -23,9 +23,9 @@
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  overflow:hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow:hidden;
  
 }
 

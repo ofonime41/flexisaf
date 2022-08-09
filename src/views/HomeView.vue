@@ -238,7 +238,7 @@
           <div class="grid grid-row lg:grid-cols-3 gap-10 ">
             <!-- TESTIMONY 1 -->
 
-            <div class="solution2 relative rounded py-5 px-7 shadow-2xl bg-white">
+            <div class="testimony relative rounded py-5 px-7 shadow-2xl bg-white">
               <!-- section divider -->
               <div class="custom-shape-divider-bottom-1659738852">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
@@ -272,7 +272,7 @@
             </div>
 
                <!-- TESTIMONY 2 -->
-             <div class="solution2  relative rounded py-5 px-7 shadow-2xl bg-white">
+             <div class="testimony relative rounded py-5 px-7 shadow-2xl bg-white">
               <!-- section divider -->
               <div class="custom-shape-divider-bottom-1659738852 testimony2">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
@@ -301,7 +301,7 @@
             </div>
 
                 <!-- TESTIMONY 3 -->
-          <div class="solution2  relative rounded py-5 px-7 shadow-2xl bg-white">
+          <div class="testimony  relative rounded py-5 px-7 shadow-2xl bg-white">
               <!-- section divider -->
               <div class="custom-shape-divider-bottom-1659738852 testimony3">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
@@ -394,7 +394,7 @@
 
   <!-- FOOTER -->
 
-  <footer class="bg-[#05224B] py-10 overflow-hidden">
+  <footer class="bg-[#05224B] py-10 ">
     <div class="container mx-auto px-10 md:px-20 ">
       <div class="lg:grid lg:grid-cols-12  gap-10">
         <div class="col-span-4 text-white mb-10">
@@ -540,7 +540,7 @@ export default {
 
       gsap.from('.solution1', {
         opacity: 0,
-        y: 'random(-100,300)',
+        y: 'random(100,300)',
         duration: 1.5,
         stagger: 0.25,
         delay: 1,
@@ -553,12 +553,25 @@ export default {
 
       gsap.from('.solution2', {
         opacity: 0,
-        x: 'random(-100,300)',
+         x: 'random(100,300)',
         duration: 1.5,
         stagger: 0.25,
-        delay: 1,
+         delay: 1,
         scrollTrigger: {
           trigger: ".solution2",
+          toggleActions: 'restart none play none',
+        }
+
+      });
+
+         gsap.from('.testimony', {
+        opacity: 0,
+         y: 'random(100,300)',
+        duration: 1.5,
+        stagger: 0.25,
+         delay: 1,
+        scrollTrigger: {
+          trigger: ".testimony",
           toggleActions: 'restart none play none',
         }
 
@@ -568,7 +581,7 @@ export default {
          gsap.from('.giving', {
           opacity:0,
          y: 'random(100,200)',
-          x: 'random(-100,200)',
+           x: 'random(100,200)',
         duration: 1.5,
         stagger: 0.8,
         delay: 1,
