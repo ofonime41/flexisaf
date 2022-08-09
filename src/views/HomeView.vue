@@ -202,7 +202,7 @@
 
             <div class="solution2 rounded py-5 px-7 shadow-2xl hover:shadow-md shadow-slate-900 text-white">
               <img class=" mx-auto w-14" src="@/assets/images/responsible.svg" alt="">
-              <h3 class="text-xl md:text-2xl font-medium my-3">Wealth of experience</h3>
+              <h3 class="text-xl md:text-2xl font-medium my-3">A git Wealth of experience</h3>
               <p class="text-justify mb-5 after:text-md">
                 With 10+ years of experience, our technical expertise has been emboldened by our resolve to help you
                 conquer barriers.
