@@ -13,7 +13,7 @@
     </div>
     <!-- section content -->
     <div class="container mx-auto px-10 md:px-20 py:10 md:py-14">
-      <div class="showcase lg:grid md:grid-cols-2 -order-1   gap-10">
+      <div class="showcase lg:grid md:grid-cols-2 gap-10">
         <div class="text-white">
           <h1 class="pt-10 md:pt-5 mb-10 text-center md:text-left text-2xl  md:text-5xl font-bold tracking-wide"> Improving Education
             through Technology Solutions</h1>
@@ -51,7 +51,7 @@
             experience to educators,
             parents and students through innovative software and technology.</p>
         </div>
-        <div class="md:flex my-5 lg:space-x-10 md:space-x-20">
+        <div class="md:flex my-5 lg:space-x-10 md:space-x-20 overflow-hidden">
           <div class="bg-[#bfd8f1] px-10 py-3 mb-5 rounded shadow-lg product2">
             <img class="align-middle w-32" src="@/assets/images/safsms.svg" alt="">
 
@@ -62,7 +62,7 @@
           </div>
         </div>
 
-        <div class="md:flex  lg:space-x-10 md:space-x-20">
+        <div class="md:flex  lg:space-x-10 md:space-x-20 overflow-hidden">
           <div class="bg-[#d3cafd] px-10 py-3 mb-5 rounded shadow-lg product2">
             <img class="align-middle w-32" src="@/assets/images/safapply.svg" alt="">
           </div>
@@ -79,7 +79,7 @@
   <!-- OUR SOLUTIONS SECTION -->
   <section class="bg-[#E3ECF2] md:my-20  text-[#05224b]">
     <div class="container mx-auto py-10 md:py-20 md:pb-56">
-      <div class="px-10 md:px-20">
+      <div class="px-10 md:px-20 overflow-hidden">
         <h1 class="text-center  text-2xl md:text-3xl font-semibold text-[#05224b]"> There is a Solution
           for
           All Stakeholders
@@ -489,21 +489,25 @@ export default {
     scrollAnimation() {
 
       gsap.from('.showcase', {
+        opacity:0,
         y: 200,
       })
       gsap.to('.showcase', {
+        opacity:0,
         y: 0,
-        duration: 3,
+        duration: 2,
       });
 
 
       gsap.from('.slidimg', {
+        opacity:0,
         x: -300,
+
 
       })
       gsap.to('.slidimg', {
         x: 0,
-        duration: 3,
+        duration: 2,
         scrollTrigger: {
           trigger: ".slidimg",
           toggleActions: 'restart none restart none',
@@ -579,35 +583,12 @@ export default {
     },
 
 
-
-
-    // where the animation will start from
-    // beforeEnter(el) {
-    //   el.style.opacity = '0'
-    //   el.style.transform = 'translateY(50px)'
-    // },
-    // where the animation will end up
-    // enter(el) {
-    //   gsap.to(el, {
-    //     duration: 2,
-    //     y: 0,
-    //     opacity: 1,
-    //   })
-    // },
-
-
   }
 }
 </script>
 
 <style scoped>
-/* #background {
-background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('@/assets/images/giving-bg.png');
-height: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-} */
+
 .slidimg,.solution1,.solution2{
   overflow: hidden !important;
 }
