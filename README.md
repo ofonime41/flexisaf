@@ -1,4 +1,6 @@
 # flexisaf
+## link to site https://flexisaf.netlify.app/
+### The project is a  redesign of https://www.flexisaf.com/ landing page
 
 ## Project setup
 ```
