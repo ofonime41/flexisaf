@@ -13,7 +13,7 @@
     </div>
     <!-- section content -->
     <div class="container mx-auto px-10 md:px-20 py:10 md:py-14">
-      <div class="showcase md:grid md:grid-cols-2 grid-row gap-10">
+      <div class="showcase lg:grid md:grid-cols-2 -order-1   gap-10">
         <div class="text-white">
           <h1 class="pt-10 md:pt-5 mb-10 text-center md:text-left text-2xl  md:text-5xl font-bold tracking-wide"> Improving Education
             through Technology Solutions</h1>
@@ -39,9 +39,9 @@
 
   <!-- PRODUCTS SECTION -->
   <section class="container mx-auto py-20 mt-10">
-    <div class=" flex md:space-x-10 px-10 md:px-20">
+    <div class=" lg:flex lg:space-x-10 px-10 md:px-20">
       <div class="hidden md:block my-auto slidimg">
-        <img class="shadow shadow-slate-400 rounded-md slidimg1" src="@/assets/images/stat.png" alt="">
+        <img class="shadow shadow-slate-400 rounded-md slidimg1 md:mb-5" src="@/assets/images/stat.png" alt="">
       </div>
       <div class="">
         <div class="product1 ">
@@ -51,7 +51,7 @@
             experience to educators,
             parents and students through innovative software and technology.</p>
         </div>
-        <div class="md:flex my-5 md:space-x-10">
+        <div class="md:flex my-5 lg:space-x-10 md:space-x-20">
           <div class="bg-[#bfd8f1] px-10 py-3 mb-5 rounded shadow-lg product2">
             <img class="align-middle w-32" src="@/assets/images/safsms.svg" alt="">
 
@@ -62,7 +62,7 @@
           </div>
         </div>
 
-        <div class="md:flex  md:space-x-10">
+        <div class="md:flex  lg:space-x-10 md:space-x-20">
           <div class="bg-[#d3cafd] px-10 py-3 mb-5 rounded shadow-lg product2">
             <img class="align-middle w-32" src="@/assets/images/safapply.svg" alt="">
           </div>
@@ -89,7 +89,7 @@
 
 
 
-        <div class="grid grid-row md:grid-cols-3 gap-10 text-center">
+        <div class="grid grid-row lg:grid-cols-3 gap-10 text-center">
 
           <div class="solution1 rounded bg-white py-5 px-5 shadow-2xl shadow-gray-500 hover:shadow-md  text-[#05224b]">
             <img class=" mx-auto w-10" src="@/assets/images/person.svg" alt="">
@@ -131,9 +131,9 @@
   <!-- PROBLEMS SOLVED SECTION -->
   <section>
     <div class="container mx-auto my-10 md:my:20  px-10 md:px-20">
-      <div class="md:grid md:grid-cols-2 gap-20 ">
+      <div class="md:grid lg:grid-cols-2 gap-20 ">
         <div class="md:-mt-40">
-          <img class="shadow-2xl rounded-3xl hidden md:block" src="@/assets/images/problem_img.jpg" alt="">
+          <img class="shadow-2xl rounded-3xl hidden lg:block" src="@/assets/images/problem_img.jpg" alt="">
         </div>
 
         <div>
@@ -147,7 +147,7 @@
             problems. We want to bring about societal progress through Educational Technology.</p>
 
 
-          <div class="md:flex md:space-x-20">
+          <div class="md:flex lg:space-x-20 md:space-x-40">
 
             <ul class="flex flex-col space-y-3 mb-3">
               <li class="rounded-xl p-2 bg-[#274C79] text-white text-center font-semi-bold">Affordability</li>
@@ -165,7 +165,7 @@
 
 
           </div>
-          <div class="flex md:space-x-10 space-x-5 my-10">
+          <div class="flex lg:space-x-10 md:space-x-40 space-x-5 my-10">
             <p class="text-center font-bold text-[#070852] "><span
                 class="md:text-2xl">5+</span><br>Countries</p>
             <p class="text-center font-bold text-[#E03168] "><span class="font-bold md:text-2xl">500+
@@ -190,7 +190,7 @@
           <p class="text-center mt-3 mb-20 text-md md:text-xl  text-white">FlexiSAF Solutions are made for all
             stakeholders of Education in Nigeria. Software Tools Listings</p>
 
-          <div class="grid grid-row md:grid-cols-3 gap-10 text-center ">
+          <div class="grid grid-row lg:grid-cols-3 gap-10 text-center ">
             <div class="solution2 rounded py-5 px-7 shadow-2xl hover:shadow-md shadow-slate-900 text-white">
               <img class=" mx-auto w-14" src="@/assets/images/person.svg" alt="">
               <h3 class="text-2xl font-medium my-3"> A Personal Journey</h3>
@@ -235,7 +235,7 @@
           </h1>
           <p class="text-center text-md mt-3 mb-20 ">Here’s a few words from some of our clients Software Tools Listings</p>
 
-          <div class="grid grid-row md:grid-cols-3 gap-10 ">
+          <div class="grid grid-row lg:grid-cols-3 gap-10 ">
             <!-- TESTIMONY 1 -->
 
             <div class="solution2 relative rounded py-5 px-7 shadow-2xl bg-white">
@@ -338,7 +338,7 @@
  <!-- GIVING -->
   <section class="bg-giving bg-cover ">
     <div class="container mx-auto md:my-20 px-10 md:px-20 py-10 pb-20">
-      <div class="md:grid md:grid-cols-2 gap-10">
+      <div class="md:grid lg:grid-cols-2 gap-10">
         <div class="">
           <h1 class="text-white text-3xl font-bold mb-5">How we give back</h1>
           <p class="text-white my-5 ">FlexiSAF believes that by being part and parcel of the society, it must contribute positively in the overall well-being of our community.  
@@ -362,7 +362,7 @@
 
         </div>
 
-        <div class="hidden md:block relative ">
+        <div class="hidden lg:block relative ">
         <div class="bg-black">
           <img class="giving give1 absolute top-4 left-24 w-48" src="@/assets/images/give-1.png" alt="">
         <img class="giving give2 absolute -bottom-3 left-24 w-48" src="@/assets/images/give-2.png" alt="">
@@ -378,7 +378,7 @@
 
  <!-- CONTACT -->
   <section class="container mx-auto md:my-40">
-    <div class="my-10 md:mx-60 mx-5">
+    <div class="my-10 lg:mx-60 md:mx-20 mx-5">
       <div class="bg-contact py-14 px-5 text-center rounded-xl">
         <h1 class="text-3xl font-bold text-white mb-5 underline">Get in touch with us</h1>
         <p class="text-white mb-5">Have questions, or want to talk about working with us?</p>
@@ -396,14 +396,14 @@
 
   <footer class="bg-[#05224B] py-10 overflow-hidden">
     <div class="container mx-auto px-10 md:px-20 ">
-      <div class="md:grid md:grid-cols-12  gap-10">
+      <div class="lg:grid lg:grid-cols-12  gap-10">
         <div class="col-span-4 text-white mb-10">
           <img class="w-32 mb-5" src="@/assets/images/green-horizontal.svg" alt="">
           <small class="opacity-50"> Flexisaf Edusoft Limited Nigeria</small><br><br>
           <small class="opacity-50">No. 3 Egbedi Close, off Samuel Ladoke Akintola Boulevard, Garki 2, Abuja, Nigeria.</small><br><br>
           <small class="opacity-50">Give us a call +234 705 988 7123</small>
         </div>
-            <div class="col-span-1"></div>
+            <div class="col-span-1 mb-20"></div>
          
          <div class="col-span-7">
             <ul class="md:flex justify-center md:space-x-10  text-white opacity-90 ">
